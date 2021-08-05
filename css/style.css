@@ -360,6 +360,10 @@ html{
 	border-radius: 5px;
 	cursor: pointer;
 	color: #fff;
+	transition: .5s;
+}
+.mybtn:hover{
+	background: #2cacf7;
 }
 
   /***************************************
