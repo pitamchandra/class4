@@ -112,7 +112,7 @@ html{
 	background: url(../img/banar.png) center top no-repeat;
 	background-size: cover;
 	text-align: center;
-	padding: 130px 0px 90px 0px;
+	padding: 150px 0px 60px 0px;
 }
 .banner-inner{
 	width: 100%;
@@ -120,8 +120,8 @@ html{
 
 }
 .banner-inner h1{
-	font-size: 160px;
-	line-height: 170px;
+	font-size: 114px;
+	line-height: 124px;
 	font-weight: 400;
 	margin-bottom: 15px;
 	color: #fff;
@@ -157,7 +157,7 @@ html{
 	float: left;
 }
 .arrow img {
-	margin-top: 180px;
+	margin-top: 130px;
 
 }
 
