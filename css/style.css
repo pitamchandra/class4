@@ -14,6 +14,9 @@ h1,h2,h3,h4,h5,h6{
 a,a:hover{
 	text-decoration: none;
 }
+html{
+	scroll-behavior: smooth;
+}
 /***********************************
      *** Global Css Code Start ***
  ***********************************/
@@ -84,9 +87,11 @@ a,a:hover{
 	margin-right: 0;
 }
 .navbar ul li a{
-	font-size: 18px;
+	font-size: 16px;
 	color: #2D3950;
-	font-weight: 700;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
 	transition: .5s;
 }
 .navbar ul li a:hover{
@@ -104,32 +109,32 @@ a,a:hover{
 .banner-section{
 	width: 100%;
 	float: left;
-	background: url(../img/banar.png) center bottom no-repeat;
+	background: url(../img/banar.png) center top no-repeat;
 	background-size: cover;
 	text-align: center;
+	padding: 130px 0px 90px 0px;
 }
 .banner-inner{
 	width: 100%;
 	float: left;
-	padding: 150px 0;
 
 }
 .banner-inner h1{
-	font-size: 85px;
-	line-height: 100px;
-	font-weight: 700;
+	font-size: 160px;
+	line-height: 170px;
+	font-weight: 400;
 	margin-bottom: 15px;
 	color: #fff;
 }
 .banner-inner .divider{
-	width: 48%;
+	width: 750px;
 	margin: 0px auto 20px;
-	height: 2px;
+	height: 1.5px;
 	background: #15a4fa;
 }
 .banner-inner p{
-	font-size: 16px;
-	line-height: 26px;
+	font-size: 26px;
+	line-height: 36px;
 	font-weight: 400;
 	color: #fff;
 	margin-bottom: 60px;
@@ -137,6 +142,7 @@ a,a:hover{
 .banner-inner .btn{
 	padding: 12px 35px;
 	border: 1px solid #15a4fa;
+	border-radius: 5px;
 	background: transparent;
 	color: #fff;
 	font-size: 18px;
@@ -149,14 +155,10 @@ a,a:hover{
 .arrow{
 	width: 100%;
 	float: left;
-	padding-top: 30px;
-	position: relative;
 }
 .arrow img {
-    position: absolute;
-    top: 360%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	margin-top: 180px;
+
 }
 
 /**********************************************
@@ -176,15 +178,15 @@ a,a:hover{
 	text-align: center;
 }
 .typo-section h1{
-	font-size: 45px;
-	line-height: 55px;
-	font-weight: 700;
-	margin-bottom: 15px;
-	color: #000;
+	font-size: 53px;
+    line-height: 63px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #2d3950;
 }
 .typo-section p{
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 20px;
+	line-height: 30px;
 	font-weight: 400;
 	color: #999999;
 }
@@ -204,21 +206,21 @@ a,a:hover{
 	text-align: center;
 }
 .feature-inner{
-	padding: 0 20px;
+	padding: 0 10px;
 }
 .feature-inner img{
 	margin-bottom: 20px;
 }
 .feature-inner h4{
-	font-size: 18px;
-	line-height: 24px;
-	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
 	margin-bottom: 15px;
-	color: #000;
+	color: #2d3950;
 }
 .feature-inner p{
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 16px;
+	line-height: 26px;
 	font-weight: 400;
 	color: #999999;
 }
@@ -244,15 +246,15 @@ a,a:hover{
 	margin-bottom: 55px;
 }
 .portfolio-top h1{
-	font-size: 45px;
-	line-height: 55px;
-	font-weight: 700;
-	margin-bottom: 15px;
-	color: #000;
+	font-size: 53px;
+    line-height: 63px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #2d3950;
 }
 .portfolio-top p{
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 20px;
+	line-height: 30px;
 	font-weight: 400;
 	color: #999999;
 }
@@ -300,7 +302,7 @@ a,a:hover{
 	line-height: 40px;
 	border: 1px solid #fff;
 	color: #fff;
-	font-size: 13px;
+	font-size: 20px;
 	transition: .5s;
 }
 .port-inner ul li a i:hover{
@@ -355,6 +357,7 @@ a,a:hover{
 	background: transparent;
 	padding: 10px 25px;
 	border: 1px solid #2cacf7;
+	border-radius: 5px;
 	cursor: pointer;
 	color: #fff;
 }
@@ -393,7 +396,7 @@ a,a:hover{
 	border: 1px solid #2cacf7;
 	border-radius: 5px;
 	color: #fff;
-	font-size: 13px;
+	font-size: 20px;
 	transition: .5s;
 }
 .social-icons ul li a i:hover{
